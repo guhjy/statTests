@@ -4,8 +4,7 @@ Version: 0.0.1
 Authors@R: person("John", "Didion", email = "code@didion.net", role = c("aut", "cre"))
 Description: Implementations of statistical tests that I haven't found in other R packages.
 G_test: Log-likelihood tests of independence & goodness of fit. Does Williams' and Yates' correction and Monte Carlo simulation of p-values
-distributions (Tests the probability that `x` was drawn from one or more distributions):
-"cauchy", "exponential", "gamma", "geometric", "normal", "Poisson", "t", "weibull", "lognormal", "logistic", "negative binomial"
+distributions: Tests the probability that `x` was drawn from one or more distributions ("cauchy", "exponential", "gamma", "geometric", "normal", "Poisson", "t", "weibull", "lognormal", "logistic", "negative binomial")
 log_norma: Compute the p-value for testing the difference between means of two log-normal random variables, and computes the confidence interval.
 Depends: R (>= 3.1.3)
 License: GPL (>= 2)
